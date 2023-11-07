@@ -81,3 +81,7 @@ elements.forEach((element, index) => {
   // Regular text replacement for given locale.
   element.innerHTML = text;
 });
+
+// Set <html> tag lang attribute.
+const htmlElement = document.querySelector('html');
+htmlElement.setAttribute('lang', pageLanguage);
